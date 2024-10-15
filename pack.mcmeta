@@ -1,0 +1,28 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 99
+    },
+    "description": "Smelt more items for iron ingots and nuggets"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {
+          "min_inclusive": 34,
+          "max_inclusive": 42
+        },
+        "directory": "overlay_41"
+      },
+      {
+        "formats": {
+          "min_inclusive": 43,
+          "max_inclusive": 48
+        },
+        "directory": "overlay_48"
+      }
+    ]
+}
+}
