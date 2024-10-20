@@ -5,7 +5,7 @@ Recycle more iron items! With this data pack, you can recycle more iron-based it
 If something requires four or more ingots per item to make, get one ingot from smelting it. Otherwise, get an iron nugget. Exceptions: Compasses become iron nuggets and doors become iron ingots.
 
 
-### License
+## License
 
 This pack is available under a [Creative Commons 4.0 Attribution-Noncommercial-ShareAlike (CC BY-NC-SA) license](https://creativecommons.org/licenses/by-nc-sa/4.0/). You have permission to modify and share this pack under the following conditions:
 
