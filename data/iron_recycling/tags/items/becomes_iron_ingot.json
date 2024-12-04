@@ -1,60 +1,18 @@
 {
   "values": [
-    {
-      "id": "minecraft:iron_helmet",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_chestplate",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_leggings",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_boots",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_horse_armor",
-      "required": false
-    },
-    {
-      "id": "minecraft:chainmail_helmet",
-      "required": false
-    },
-    {
-      "id": "minecraft:chainmail_chestplate",
-      "required": false
-    },
-    {
-      "id": "minecraft:chainmail_leggings",
-      "required": false
-    },
-    {
-      "id": "minecraft:chainmail_boots",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_door",
-      "required": false
-    },
-    {
-      "id": "minecraft:iron_trapdoor",
-      "required": false
-    },
-    {
-      "id": "minecraft:cauldron",
-      "required": false
-    },
-    {
-      "id": "minecraft:hopper",
-      "required": false
-    },
-    {
-      "id": "minecraft:minecart",
-      "required": false
-    }
+    "minecraft:iron_helmet",
+    "minecraft:iron_chestplate",
+    "minecraft:iron_leggings",
+    "minecraft:iron_boots",
+    "minecraft:iron_horse_armor",
+    "minecraft:chainmail_helmet",
+    "minecraft:chainmail_chestplate",
+    "minecraft:chainmail_leggings",
+    "minecraft:chainmail_boots",
+    "minecraft:iron_door",
+    "minecraft:iron_trapdoor",
+    "minecraft:cauldron",
+    "minecraft:hopper",
+    "minecraft:minecart"
   ]
 }
