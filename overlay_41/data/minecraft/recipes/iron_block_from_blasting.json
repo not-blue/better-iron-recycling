@@ -2,7 +2,7 @@
   "type": "minecraft:blasting",
   "category": "misc",
   "ingredient": {
-    "tag": "minecraft:anvil"
+    "tag": "iron_recycling:becomes_iron_block"
   },
   "result": {
     "id": "minecraft:iron_block"

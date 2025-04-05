@@ -15,6 +15,7 @@
     "minecraft:shield",
     "minecraft:chain",
     "minecraft:iron_bars",
-    "minecraft:heavy_weighted_pressure_plate"
+    "minecraft:heavy_weighted_pressure_plate",
+    "minecraft:flint_and_steel"
   ]
 }
