@@ -1,0 +1,34 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "minecraft:iron_nuggets_from_blast_furnace"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      },
+      "has_blast_furnace": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:blast_furnace"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_blast_furnace"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "minecraft:iron_nuggets_from_blast_furnace"
+      ]
+    }
+  }

@@ -5,7 +5,7 @@
       "min_inclusive": 15,
       "max_inclusive": 41
     },
-    "description": "Smelt more items for iron ingots and nuggets. For 1.20-1.20.6."
+    "description": "Recycle more items for iron ingots and nuggets. For 1.20-1.20.6."
   },
   "overlays": {
     "entries": [

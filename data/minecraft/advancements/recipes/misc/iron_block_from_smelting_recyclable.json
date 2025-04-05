@@ -4,15 +4,15 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "minecraft:iron_block_from_blasting"
+        "recipe": "minecraft:iron_block_from_smelting_recyclable"
       }
     },
-    "has_anvil": {
+    "has_iron_recyclable_to_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:anvil"
+            "tag": "iron_recycling:becomes_iron_block"
           }
         ]
       }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_anvil"
+      "has_iron_recyclable_to_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:iron_block_from_blasting"
+      "minecraft:iron_block_from_smelting_recyclable"
     ]
   }
 }

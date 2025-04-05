@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "misc",
+  "ingredient": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:sticky_piston"
+    }
+  ],
+  "result": "minecraft:iron_nugget",
+  "count": 4
+}
