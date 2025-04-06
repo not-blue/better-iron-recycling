@@ -16,6 +16,7 @@
     "minecraft:chain",
     "minecraft:iron_bars",
     "minecraft:heavy_weighted_pressure_plate",
-    "minecraft:flint_and_steel"
+    "minecraft:flint_and_steel",
+    "minecraft:crossbow"
   ]
 }

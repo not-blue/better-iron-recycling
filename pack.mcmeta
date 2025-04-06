@@ -1,18 +1,14 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 48,
     "supported_formats": {
-      "min_inclusive": 15,
+      "min_inclusive": 48,
       "max_inclusive": 999
     },
-    "description": "Smelt more items for iron ingots and nuggets"
+    "description": "Smelt more items for iron ingots and nuggets. For Minecraft 1.21+."
   },
   "overlays": {
     "entries": [
-      {
-        "formats": 41,
-        "directory": "overlay_41"
-      },
       {
         "formats": 48,
         "directory": "overlay_48"
@@ -20,9 +16,16 @@
       {
         "formats": {
           "min_inclusive": 57,
-          "max_inclusive": 999
+          "max_inclusive": 70
         },
         "directory": "overlay_57"
+      },
+      {
+        "formats": {
+          "min_inclusive": 71,
+          "max_inclusive": 999
+        },
+        "directory": "overlay_71"
       }
     ]
 }

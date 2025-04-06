@@ -1,0 +1,42 @@
+{
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:iron_nuggets_from_pistons"
+        }
+      },
+      "has_piston": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:piston"
+            }
+          ]
+        }
+      },
+      "has_sticky_piston": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:sticky_piston"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_piston",
+        "has_sticky_piston"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "minecraft:iron_nuggets_from_pistons"
+      ]
+    }
+  }

@@ -1,9 +1,7 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "ingredient": [
-    "#iron_recycling:becomes_iron_block"
-  ],
+  "ingredient": "#iron_recycling:becomes_iron_block",
   "result": {
     "id": "minecraft:iron_block"
   },

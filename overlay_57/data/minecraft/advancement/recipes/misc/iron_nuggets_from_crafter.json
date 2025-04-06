@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "has_the_recipe": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "minecraft:iron_nuggets_from_crafter"
+        }
+      },
+      "has_crafter": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:crafter"
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_crafter"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "minecraft:iron_nuggets_from_crafter"
+      ]
+    }
+  }
