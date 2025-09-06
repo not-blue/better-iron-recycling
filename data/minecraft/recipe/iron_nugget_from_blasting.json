@@ -1,9 +1,7 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "ingredient": {
-    "tag": "iron_recycling:becomes_iron_nugget"
-  },
+  "ingredient": "#iron_recycling:becomes_iron_nugget",
   "result": {
     "id": "minecraft:iron_nugget"
   },

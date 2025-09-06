@@ -2,12 +2,8 @@
     "type": "minecraft:stonecutting",
     "group": "misc",
     "ingredient": [
-      {
-        "item": "minecraft:piston"
-      },
-      {
-        "item": "minecraft:sticky_piston"
-      }
+      "minecraft:piston",
+      "minecraft:sticky_piston"
     ],
     "result": {
       "id": "minecraft:iron_nugget",

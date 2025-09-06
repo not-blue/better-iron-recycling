@@ -1,9 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "group": "misc",
-    "ingredient": "minecraft:blast_furnace",
-    "result": {
-      "id": "minecraft:iron_nugget",
-      "count": 13
-    }
-  }
