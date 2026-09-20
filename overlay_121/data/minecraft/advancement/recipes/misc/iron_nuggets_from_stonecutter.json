@@ -3,7 +3,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipes": "minecraft:iron_nuggets_from_stonecutter.json"
+          "recipes": "iron_recycling:iron_nuggets_from_stonecutter.json"
         }
       },
       "has_stonecutter": {
@@ -25,7 +25,7 @@
     ],
     "rewards": {
       "recipes": [
-        "minecraft:iron_nuggets_from_stonecutter.json"
+        "iron_recycling:iron_nuggets_from_stonecutter.json"
       ]
     }
   }

@@ -3,7 +3,7 @@
       "has_the_recipe": {
         "trigger": "minecraft:recipe_unlocked",
         "conditions": {
-          "recipes": "minecraft:iron_nuggets_from_pistons"
+          "recipes": "iron_recycling:iron_nuggets_from_pistons"
         }
       },
       "has_piston": {
@@ -36,7 +36,7 @@
     ],
     "rewards": {
       "recipes": [
-        "minecraft:iron_nuggets_from_pistons"
+        "iron_recycling:iron_nuggets_from_pistons"
       ]
     }
   }
