@@ -1,31 +1,32 @@
 {
-    "criteria": {
-      "has_the_recipe": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipes": "iron_recycling:iron_nuggets_from_lodestone.json"
-        }
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "iron_recycling:iron_nuggets_from_lodestone"
       },
-      "has_lodestone": {
-        "trigger": "minecraft:inventory_changed",
-        "conditions": {
-          "items": [
-            {
-              "items": "minecraft:lodestone"
-            }
-          ]
-        }
-      }
+      "trigger": "minecraft:recipe_unlocked"
     },
-    "requirements": [
-      [
-        "has_the_recipe",
-        "has_lodestone"
-      ]
-    ],
-    "rewards": {
-      "recipes": [
-        "iron_recycling:iron_nuggets_from_lodestone.json"
-      ]
+    "has_lodestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lodestone"
+          }
+        ]
+      }
     }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lodestone"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "iron_recycling:iron_nuggets_from_lodestone"
+    ]
   }
+}
